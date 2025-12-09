@@ -1,18 +1,17 @@
 import './globals.css';
-import Navigation from '../components/Navigation';
-import PageShell from '../components/PageShell';
 
 export const metadata = {
   title: 'Harun Faizi | Homepage & Portfolio',
-  description: 'Persönliche Homepage und Portfolio-Platzhalter für Harun Faizi.',
+  description: 'Grundstruktur einer persönlichen Homepage und eines Portfolios.',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="de">
-      <body className="site-body">
-        <Navigation />
-        <PageShell>{children}</PageShell>
+      <body>
+        <div className="mx-auto flex min-h-screen max-w-5xl flex-col px-6 py-10 lg:px-10 lg:py-12">
+          <main className="flex-1 space-y-12">{children}</main>
+        </div>
       </body>
     </html>
   );

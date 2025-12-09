@@ -1,21 +1,20 @@
 # XR-HOMEPAGE-FOLIO
-Dieses Repository bildet die Grundlage für eine digitale Präsenz von Harun Faizi – eine Homepage, die zugleich Portfolio und Einladung ist. Sie versammelt Arbeitsproben, eröffnet Wege zur Zusammenarbeit und gibt Einblick in eine Arbeitsweise, die zwischen Architektur, Forschung und digitalen Experimenten wächst.
 
-## Entwicklung
-Installiere Abhängigkeiten mit `npm install`. Falls der Standardzugriff wegen Proxy/Sicherheitsrichtlinien scheitert, probiere nacheinander:
+Grundgerüst einer persönlichen Homepage und eines Portfolios für Harun Faizi. Das Projekt nutzt Next.js (App Router) und Tailwind CSS und enthält ausschließlich leere Platzhalterbereiche.
 
-1. Eventuelle Proxy-Umgebungsvariablen entfernen (vermeidet Warnungen wie „Unknown env config \"http-proxy\"“):
+## Setup
+1. Abhängigkeiten installieren:
    ```bash
-   unset npm_config_http-proxy npm_config_https-proxy
+   npm install
    ```
-2. Einen alternativen Registry-Mirror temporär setzen:
+   Falls der Standard-Registry-Zugriff blockiert ist, nutze vorübergehend einen Mirror:
    ```bash
    npm install --registry=https://registry.npmmirror.com/
    ```
-3. Eine eigene CA einbinden, falls nötig:
-   ```bash
-   export NODE_EXTRA_CA_CERTS=/pfad/zur/ca.pem
-   ```
-4. Wenn alles blockiert, nutze ein vorbereitetes Offline- oder internen Registry-Cache (z. B. Artifactory/Nexus) oder kopiere einen vorhandenen `node_modules`-Ordner in das Projekt.
 
-Starte die Entwicklungsumgebung anschließend mit `npm run dev`.
+2. Entwicklung starten:
+   ```bash
+   npm run dev
+   ```
+
+Die Seiten liegen unter `app/` (Start, Über mich, Philosophie, Portfolio, Kontakt). Wiederverwendbare Platzhalter-Struktur: `components/Section.js`.

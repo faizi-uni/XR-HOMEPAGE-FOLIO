@@ -1,19 +1,13 @@
 import Section from '../components/Section';
 
-const sections = [
-  { id: 'hero', title: 'Hero' },
-  { id: 'ueber-mich', title: 'Über mich' },
-  { id: 'philosophie', title: 'Philosophie' },
-  { id: 'portfolio', title: 'Portfolio' },
-  { id: 'kontakt', title: 'Kontakt' },
-];
-
 export default function HomePage() {
   return (
-    <>
-      {sections.map((section) => (
-        <Section key={section.id} id={section.id} title={section.title} />
-      ))}
-    </>
+    <div className="space-y-10">
+      <Section id="hero" title="Hero" />
+      <Section id="about" title="Über mich" />
+      <Section id="philosophy" title="Philosophie" />
+      <Section id="portfolio" title="Portfolio" />
+      <Section id="contact" title="Kontakt" />
+    </div>
   );
 }
