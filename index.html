@@ -1,66 +1,56 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/index.html b/index.html
-new file mode 100644
-index 0000000000000000000000000000000000000000..1aa8be55583ae967dc7e4d3fc9a8050a5576c670
---- /dev/null
-+++ b/index.html
-@@ -0,0 +1,56 @@
-+<!DOCTYPE html>
-+<html lang="de">
-+<head>
-+  <meta charset="UTF-8">
-+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-+  <title>Harun Faizi | Homepage & Portfolio</title>
-+  <link rel="stylesheet" href="styles.css">
-+</head>
-+<body>
-+  <header>
-+    <nav class="nav">
-+      <div class="logo">Harun Faizi</div>
-+      <ul class="nav-links">
-+        <li><a href="#start">Start</a></li>
-+        <li><a href="#ueber-mich">Über mich</a></li>
-+        <li><a href="#philosophie">Philosophie</a></li>
-+        <li><a href="#portfolio">Portfolio</a></li>
-+        <li><a href="#kontakt">Kontakt</a></li>
-+      </ul>
-+    </nav>
-+  </header>
-+
-+  <main>
-+    <section id="start" class="section placeholder">
-+      <h1>Startbereich</h1>
-+      <div class="placeholder-box"></div>
-+    </section>
-+
-+    <section id="ueber-mich" class="section placeholder">
-+      <h2>Über mich</h2>
-+      <div class="placeholder-box"></div>
-+    </section>
-+
-+    <section id="philosophie" class="section placeholder">
-+      <h2>Philosophie</h2>
-+      <div class="placeholder-box"></div>
-+    </section>
-+
-+    <section id="portfolio" class="section placeholder">
-+      <h2>Portfolio</h2>
-+      <div class="placeholder-box"></div>
-+    </section>
-+
-+    <section id="kontakt" class="section placeholder">
-+      <h2>Kontakt</h2>
-+      <div class="placeholder-box"></div>
-+    </section>
-+  </main>
-+
-+  <footer class="footer placeholder">
-+    <p>© 2024 Harun Faizi</p>
-+  </footer>
-+
-+  <script src="main.js"></script>
-+</body>
-+</html>
- 
-EOF
-)
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harun Faizi | Homepage & Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="logo">Harun Faizi</div>
+      <ul class="nav-links">
+        <li><a href="#start">Start</a></li>
+        <li><a href="#ueber-mich">Über mich</a></li>
+        <li><a href="#philosophie">Philosophie</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="start" class="section placeholder">
+      <h1>Startbereich</h1>
+      <div class="placeholder-box"></div>
+    </section>
+
+    <section id="ueber-mich" class="section placeholder">
+      <h2>Über mich</h2>
+      <div class="placeholder-box"></div>
+    </section>
+
+    <section id="philosophie" class="section placeholder">
+      <h2>Philosophie</h2>
+      <div class="placeholder-box"></div>
+    </section>
+
+    <section id="portfolio" class="section placeholder">
+      <h2>Portfolio</h2>
+      <div class="placeholder-box"></div>
+    </section>
+
+    <section id="kontakt" class="section placeholder">
+      <h2>Kontakt</h2>
+      <div class="placeholder-box"></div>
+    </section>
+  </main>
+
+  <footer class="footer placeholder">
+    <p>© 2024 Harun Faizi</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
