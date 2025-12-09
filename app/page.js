@@ -1,4 +1,3 @@
-import PageShell from '../components/PageShell';
 import Section from '../components/Section';
 
 const sections = [
@@ -11,10 +10,10 @@ const sections = [
 
 export default function HomePage() {
   return (
-    <PageShell>
+    <>
       {sections.map((section) => (
         <Section key={section.id} id={section.id} title={section.title} />
       ))}
-    </PageShell>
+    </>
   );
 }
