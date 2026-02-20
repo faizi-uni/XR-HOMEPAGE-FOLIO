@@ -1,0 +1,13 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" fill="#ECEFF3"/>
+  <rect x="20" y="20" width="1160" height="660" stroke="#111827" stroke-width="8"/>
+  <rect x="120" y="120" width="320" height="150" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="500" y="90" width="230" height="130" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="810" y="110" width="250" height="180" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="230" y="390" width="250" height="170" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="560" y="370" width="220" height="140" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="860" y="390" width="220" height="180" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <line x1="70" y1="350" x2="1130" y2="350" stroke="#D1D5DB" stroke-width="2" stroke-dasharray="8 8"/>
+  <line x1="600" y1="40" x2="600" y2="660" stroke="#D1D5DB" stroke-width="2" stroke-dasharray="8 8"/>
+  <text x="40" y="60" fill="#374151" font-size="26" font-family="Arial, sans-serif">Ausstellungsgrundriss (Platzhalter)</text>
+</svg>
