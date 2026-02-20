@@ -1,8 +1,9 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Harun Faizi | Homepage & Portfolio',
-  description: 'Persönliche Homepage und Portfolio-Platzhalter für Harun Faizi.',
+  title: 'Ausstellungs-Tracking | Anonymes Bewegungsprofil',
+  description:
+    'Mobile Web-App zum anonymen Erfassen von Besuchsbewegungen auf einem Ausstellungsgrundriss.',
 };
 
 export default function RootLayout({ children }) {
